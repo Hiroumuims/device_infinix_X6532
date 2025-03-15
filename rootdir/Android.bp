@@ -191,3 +191,9 @@ prebuilt_etc {
     src: "etc/fstab.enableswap_wb",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "fstab.mt6768",
+    src: "etc/fstab.mt6768",
+    vendor: true,
+}
