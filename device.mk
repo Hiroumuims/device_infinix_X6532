@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
     init.tran_mcf.sh \
 
 PRODUCT_PACKAGES += \
+    fstab.mt6768 \
     fstab.enableswap_wb \
     factory_init.connectivity.common.rc \
     factory_init.connectivity.rc \
