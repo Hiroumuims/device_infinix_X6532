@@ -120,8 +120,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 BOARD_VNDK_VERSION := current
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_X6532
-TARGET_RECOVERY_DEVICE_MODULES := libinit_X6532
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_Infinix-X6532
+TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6532
 
 # Inherit the proprietary files
 include vendor/infinix/X6532/BoardConfigVendor.mk
