@@ -7,6 +7,7 @@
 DEVICE_PATH := device/infinix/X6532
 
 # Build Hack
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -22,7 +23,7 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 TARGET_USES_64_BIT_BINDER := true
 
 # Audio
-BOARD_USES_MTK_AUDIO
+BOARD_USES_MTK_AUDIO := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6532
@@ -125,3 +126,4 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6532
 
 # Inherit the proprietary files
 include vendor/infinix/X6532/BoardConfigVendor.mk
+

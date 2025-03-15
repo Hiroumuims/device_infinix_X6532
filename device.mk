@@ -88,3 +88,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/infinix/X6532/X6532-vendor.mk)
+
