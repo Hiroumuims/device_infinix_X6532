@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=AGo-64
-VENDOR=infinix
+export DEVICE=AGo-64
+export VENDOR=infinix
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
