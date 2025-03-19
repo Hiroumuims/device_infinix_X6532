@@ -87,7 +87,6 @@ PRODUCT_PACKAGES += \
     multi_init.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.enableswap_wb:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.enableswap_wb\
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.mt6768
 
 # Soong namespaces
