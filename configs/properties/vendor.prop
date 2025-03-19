@@ -9,7 +9,9 @@ dalvik.vm.heapsize=256m
 dalvik.vm.heapstartsize=16m
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
-debug.mtk_tflite.target_nnapi=29
+
+# Graphics
+debug.graphics.game_default_frame_rate.disabled=true
 debug.renderengine.backend=skiagl
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=20000000

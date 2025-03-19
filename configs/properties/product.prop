@@ -1,0 +1,5 @@
+ro.surface_flinger.enable_frame_rate_override=false
+ro.surface_flinger.set_idle_timer_ms=600
+ro.surface_flinger.set_touch_timer_ms=600
+ro.vendor.display.idle_fps=60
+ro.vendor.display

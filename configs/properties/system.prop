@@ -38,6 +38,10 @@ dalvik.vm.usap_pool_size_min=1
 dalvik.vm.usap_refill_threshold=1
 dalvik.vm.useartservice=true
 dalvik.vm.usejit=true
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 debug.atrace.tags.enableflags=0
 debug.sf.auto_latch_unsignaled=false
 debug.sf.early.app.duration=20000000
