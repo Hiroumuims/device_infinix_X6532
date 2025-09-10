@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X6532.mk
+    $(LOCAL_DIR)/rising_X6532.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X6532-user \
-    lineage_X6532-userdebug \
-    lineage_X6532-eng
+    rising_X6532-user \
+    rising_X6532-userdebug \
+    rising_X6532-eng
