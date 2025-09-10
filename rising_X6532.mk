@@ -23,6 +23,10 @@ PRODUCT_MODEL := Infinix Smart 9
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
+# VANILLA build with MICROG
+WITH_GMS := false
+WITH_MICROG := true
+
 BUILD_FINGERPRINT := Infinix/TSSI/AGo-64:14/UP1A.231005.007/241017V1860:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
